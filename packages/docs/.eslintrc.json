@@ -1,0 +1,13 @@
+{
+  "extends": "@ignite-ui/eslint-config",
+  "rules": {
+    "indent": ["error", 4]
+  },
+  "prettier/prettier": [
+    "error",
+    {
+      "singleQuote": true,
+      "parser": "flow"
+    }
+  ]
+}
